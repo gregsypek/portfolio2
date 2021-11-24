@@ -1,0 +1,72 @@
+$font-primary: 'Poppins', sans-serif;
+
+// COLORS
+
+$color-primary: #e3e2df;
+$color-secondary: #ffffff;
+$color-tertiary: #39393a;
+$color-fourth: #eb5d3f;
+$color-fifth: #bdbdbd;
+
+// BREAKPOINT
+
+$tiny: 200px;
+$small: 576px;
+$big: 768px;
+$large: 992px;
+$huge: 1089px;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: $color-primary;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--color-primary);
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  padding: 0.5rem 4rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  @media (max-width: $small) {
+    padding: 0.3rem 2rem;
+  }
+}
+
+@mixin section {
+  padding: 5rem;
+  max-width: 1152px;
+  margin: 0 auto;
+
+  @media (max-width: $small) {
+    padding: 3rem;
+  }
+}
+
+@mixin space {
+  padding: 10rem 0;
+  @media (max-width: $small) {
+    padding: 5rem 0;
+  }
+}
+body {
+  color: #616063;
+  color: #272822;
+  color: #32399c;
+}
