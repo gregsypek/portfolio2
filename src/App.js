@@ -1,8 +1,14 @@
 import "./scss/main.css";
 import Home from "./Home";
+import About from "./About";
 
 function App() {
-	return <Home />;
+	return (
+		<>
+			<Home />
+			<About />
+		</>
+	);
 }
 
 export default App;

@@ -441,6 +441,7 @@ h3 {
   color: #ffffff;
   font-size: var(--h5);
   border: 1px solid #ffffff;
+  max-height: 4.6rem;
 }
 
 .about__btn:hover {
