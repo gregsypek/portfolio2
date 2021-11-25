@@ -457,6 +457,7 @@ h3 {
 }
 
 .projects {
+  color: #39393a;
   padding: 5rem;
   max-width: 1152px;
   margin: 0 auto;
@@ -497,14 +498,14 @@ h3 {
 .projects__box {
   margin-top: 15rem;
   display: grid;
-  grid-template-areas: 'img img nav' 'img img info' 'img img info' 'img img btn';
+  grid-template-areas: "img img nav" "img img info" "img img info" "img img btn";
   grid-column-gap: 5rem;
   overflow: hidden;
 }
 
 @media (max-width: 1089px) {
   .projects__box {
-    grid-template-areas: 'nav nav nav' 'img img img' 'info info info' '. . btn';
+    grid-template-areas: "nav nav nav" "img img img" "info info info" ". . btn";
     justify-items: center;
     grid-gap: 5rem;
     margin-top: 10rem;
@@ -512,12 +513,12 @@ h3 {
 }
 
 .projects__box:nth-child(even) {
-  grid-template-areas: 'nav img img' 'info img img' 'info img img' 'btn img img';
+  grid-template-areas: "nav img img" "info img img" "info img img" "btn img img";
 }
 
 @media (max-width: 1089px) {
   .projects__box:nth-child(even) {
-    grid-template-areas: 'nav nav nav' 'img img img' 'info info info' '. . btn';
+    grid-template-areas: "nav nav nav" "img img img" "info info info" ". . btn";
   }
 }
 
@@ -563,7 +564,6 @@ h3 {
   background-color: #39393a;
   grid-area: nav;
   height: 5rem;
-  margin-bottom: -3rem;
 }
 
 @media (max-width: 1089px) {
@@ -631,7 +631,8 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 0 2rem;
+  padding: 0 1rem;
+  padding-top: 4rem;
   grid-area: info;
 }
 
@@ -645,6 +646,10 @@ h3 {
   .projects__info {
     max-width: 90vw;
   }
+}
+
+.projects__info--about {
+  max-height: 29rem;
 }
 
 .projects__btn {
