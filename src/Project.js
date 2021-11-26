@@ -13,6 +13,7 @@ export default function Project(props) {
 					<button
 						className="projects__icon projects__icon--move left--4"
 						data-move-prev
+						onClick={props.prevImage}
 					>
 						<img src={ArrowLeft} alt="arrow left" className="icon" />
 					</button>
@@ -20,6 +21,7 @@ export default function Project(props) {
 					<button
 						className="projects__icon projects__icon--move right--4"
 						data-move-next
+						onClick={props.nextImage}
 					>
 						<img src={ArrowRigth} alt="arrow right" className="icon" />
 					</button>

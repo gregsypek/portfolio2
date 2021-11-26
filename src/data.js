@@ -4,6 +4,7 @@ export default {
 	data: {
 		projects: [
 			{
+				id: 0,
 				title: "Schody Zalinski",
 				description:
 					"A web application which I've made for a client. Simple, fully responsive website with a fast, scalable, and powerful Node.js RESTful APIs. It includes modern authentication with JWT and authorization. Allows for all CRUD operations with MongoDB database.",
@@ -14,6 +15,7 @@ export default {
 				images: ["schody1.png", "schody2.png", "schody3.png", "schody4.png"],
 			},
 			{
+				id: 1,
 				title: "Miodek v3",
 				description:
 					"My biggest website - containing 14 pages. Write for a real company with honey for sale. Including lazy loading images and slider components. Fully responsive with an easy to manage SCSS structure.",
@@ -29,6 +31,7 @@ export default {
 				],
 			},
 			{
+				id: 2,
 				title: "WordsApp",
 				description:
 					"Application built as a helper for learning new words with two print option on preformatted lists.",
@@ -39,6 +42,7 @@ export default {
 				images: ["toDoApp1.png", "todoApp2.png"],
 			},
 			{
+				id: 3,
 				title: "Miodek v2",
 				description:
 					"Fully accessible and responsive One Page website build with advanced CSS layout, which I implement thanks to Jen Kramer course on Frontend Masters",
