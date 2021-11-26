@@ -14,18 +14,31 @@ function App() {
 
 	function nextImage(index) {
 		const currentProject = data.data.projects[index];
-		if (index === currentProject.images.length - 1) index = 0;
 		let currentPhoto = displayPhoto[index];
-		const currentPhotoIndex = currentProject.images.indexOf(currentPhoto);
-		// console.log(displayPhoto);
-		// console.log("currentPhoto", currentPhoto);
-		console.log("eeeee", currentProject.images[currentPhotoIndex + 1]);
+		let currentPhotoIndex = currentProject.images.indexOf(currentPhoto);
+		if (currentPhotoIndex === currentProject.images.length - 1) {
+			currentPhotoIndex = 0;
+		} else {
+			currentPhotoIndex = currentPhotoIndex + 1;
+		}
 
 		setDisplayPhoto((prevState) =>
 			prevState.map((img) =>
-				img === currentPhoto
-					? currentProject.images[currentPhotoIndex + 1]
-					: img
+				img === currentPhoto ? currentProject.images[currentPhotoIndex] : img
+			)
+		);
+	}
+	function prevImage(index) {
+		const currentProject = data.data.projects[index];
+		let currentPhoto = displayPhoto[index];
+		let currentPhotoIndex = currentProject.images.indexOf(currentPhoto);
+		if (currentPhotoIndex === 0) {
+			currentPhotoIndex = currentProject.images.length - 1;
+		} else currentPhotoIndex = currentPhotoIndex - 1;
+
+		setDisplayPhoto((prevState) =>
+			prevState.map((img) =>
+				img === currentPhoto ? currentProject.images[currentPhotoIndex] : img
 			)
 		);
 	}
@@ -38,9 +51,9 @@ function App() {
 			liveLink={project.liveLink}
 			readmeLink={project.readmeLink}
 			languages={project.languages}
-			// images={project.images[`${photos[i]}`]}
 			images={displayPhoto[i]}
 			nextImage={() => nextImage(project.id)}
+			prevImage={() => prevImage(project.id)}
 		/>
 	));
 
