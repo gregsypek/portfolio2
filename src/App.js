@@ -9,13 +9,21 @@ import Project from "./Project";
 function App() {
 	const allPhotos = data.data.projects.map((project) => project.images);
 
+	//Set first picture for each project
 	const setSlides = allPhotos.map((photo) => photo[0]);
+
 	const [displayPhoto, setDisplayPhoto] = React.useState(setSlides);
 
-	function nextImage(index) {
-		const currentProject = data.data.projects[index];
-		let currentPhoto = displayPhoto[index];
-		let currentPhotoIndex = currentProject.images.indexOf(currentPhoto);
+	let currentProject, currentPhoto, currentPhotoIndex;
+
+	function findCurrentPhotoIndex(projectId) {
+		currentProject = data.data.projects[projectId];
+		currentPhoto = displayPhoto[projectId];
+		currentPhotoIndex = currentProject.images.indexOf(currentPhoto);
+	}
+
+	function nextImage(projectId) {
+		findCurrentPhotoIndex(projectId);
 		if (currentPhotoIndex === currentProject.images.length - 1) {
 			currentPhotoIndex = 0;
 		} else {
@@ -28,10 +36,8 @@ function App() {
 			)
 		);
 	}
-	function prevImage(index) {
-		const currentProject = data.data.projects[index];
-		let currentPhoto = displayPhoto[index];
-		let currentPhotoIndex = currentProject.images.indexOf(currentPhoto);
+	function prevImage(projectId) {
+		findCurrentPhotoIndex(projectId);
 		if (currentPhotoIndex === 0) {
 			currentPhotoIndex = currentProject.images.length - 1;
 		} else currentPhotoIndex = currentPhotoIndex - 1;
