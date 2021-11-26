@@ -37,7 +37,7 @@
 		@media (max-width: $small) {
 			// padding: 0;
 			padding: 0.5rem 2rem;
-			font-size: var(--p);
+			font-size: var(--h5);
 			margin-bottom: 0;
 		}
 		&-list {
@@ -45,6 +45,10 @@
 			list-style: none;
 			display: flex;
 			justify-content: space-between;
+			@media (max-width: $small) {
+				flex-direction: column;
+				align-items: center;
+			}
 		}
 		&--name {
 			text-transform: uppercase;

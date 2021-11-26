@@ -1,6 +1,4 @@
 import React from "react";
-import about from "./img/about.png";
-import about2 from "./img/about2.png";
 
 export default function About() {
 	return (

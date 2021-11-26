@@ -6,6 +6,7 @@ import Home from "./Home";
 import About from "./About";
 import Project from "./Project";
 import More from "./More";
+import Footer from "./Footer";
 
 function App() {
 	const allPhotos = data.data.projects.map((project) => project.images);
@@ -80,6 +81,7 @@ function App() {
 			<section className="more" id="contact">
 				<More />
 			</section>
+			<Footer />
 		</>
 	);
 }

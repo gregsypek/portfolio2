@@ -12,7 +12,14 @@ export default {
 				gitLink: "https://github.com/gregsypek/carpentry2",
 				readmeLink: "https://github.com/gregsypek/carpentry2/#readme",
 				languages: "Node, Express, MongoDB, Mongoose, RESTful API, Pug, Scss",
-				images: ["schody1.png", "schody2.png", "schody3.png", "schody4.png"],
+				images: [
+					"schody1.png",
+					"schody2.png",
+					"schody3.png",
+					"schody4.png",
+					"schody5.png",
+					"schody6.png",
+				],
 			},
 			{
 				id: 1,
@@ -28,6 +35,8 @@ export default {
 					"miodekv3-2.png",
 					"miodekv3-3.png",
 					"miodekv3-4.png",
+					"miodekv3-5.png",
+					"miodekv3-6.png",
 				],
 			},
 			{
@@ -39,8 +48,14 @@ export default {
 				gitLink: "https://github.com/gregsypek/wordsApp2",
 				readmeLink: "https://github.com/gregsypek/wordsApp2/#readme",
 				languages: "JavaScirpt, SCSS, HTML",
-				images: ["toDoApp1.png", "todoApp2.png"],
+				images: [
+					"wordsApp1.png",
+					"wordsApp2.png",
+					"wordsApp3.png",
+					"wordsApp4.png",
+				],
 			},
+
 			{
 				id: 3,
 				title: "Miodek v2",
