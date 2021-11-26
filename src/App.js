@@ -5,6 +5,7 @@ import Nav from "./Nav";
 import Home from "./Home";
 import About from "./About";
 import Project from "./Project";
+import More from "./More";
 
 function App() {
 	const allPhotos = data.data.projects.map((project) => project.images);
@@ -75,6 +76,9 @@ function App() {
 			<section className="projects" id="projects">
 				<h2 className="projects__title">My Websites & Apps</h2>
 				<div className="projects__boxes">{projects}</div>
+			</section>
+			<section className="more" id="contact">
+				<More />
 			</section>
 		</>
 	);
