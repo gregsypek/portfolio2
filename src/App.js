@@ -58,6 +58,7 @@ function App() {
 			description={project.description}
 			liveLink={project.liveLink}
 			readmeLink={project.readmeLink}
+			gitLink={project.gitLink}
 			languages={project.languages}
 			images={displayPhoto[i]}
 			nextImage={() => nextImage(project.id)}

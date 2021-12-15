@@ -55,9 +55,20 @@ export default {
 					"wordsApp4.png",
 				],
 			},
-
 			{
 				id: 3,
+				title: "Quizzlet",
+				description:
+					"Application built as a challange from scrimba react course",
+				liveLink: "https://quizzica2.netlify.app/",
+				gitLink: "https://github.com/gregsypek/Quizzical2",
+				readmeLink: "https://github.com/gregsypek/Quizzical2/#readme",
+				languages: "React",
+				images: ["quizzlet1.png", "quizzlet2.png", "quizzlet3.png"],
+			},
+
+			{
+				id: 4,
 				title: "Miodek v2",
 				description:
 					"Fully accessible and responsive One Page website build with advanced CSS layout, which I implement thanks to Jen Kramer course on Frontend Masters",
