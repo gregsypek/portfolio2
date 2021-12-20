@@ -8,7 +8,7 @@ export default {
 				title: "Schody Zalinski",
 				description:
 					"A web application which I've made for a client. Simple, fully responsive website with a fast, scalable, and powerful Node.js RESTful APIs. It includes modern authentication with JWT and authorization. Allows for all CRUD operations with MongoDB database.",
-				liveLink: "https://schodyzalinski.pl",
+				liveLink: "https://schodyzalinski.herokuapp.com/",
 				gitLink: "https://github.com/gregsypek/carpentry2",
 				readmeLink: "https://github.com/gregsypek/carpentry2/#readme",
 				languages: "Node, Express, MongoDB, Mongoose, RESTful API, Pug, Scss",
