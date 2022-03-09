@@ -5,6 +5,25 @@ export default {
 		projects: [
 			{
 				id: 0,
+				title: "MJurkowska",
+				description:
+					" Website made for fictional company. Fully responsive with an easy to manage CSS variables structure.",
+				liveLink: "https://gregsypek.github.io/MJurkowska/",
+				gitLink: "https://github.com/gregsypek/MJurkowska",
+				readmeLink: "https://github.com/gregsypek/MJurkowska#readme",
+				languages: "HTML, Vanilia Js, CSS",
+				images: [
+					"mjurkowska1.png",
+					"mjurkowska2.png",
+					"mjurkowska3.png",
+					"mjurkowska4.png",
+					"mjurkowska5.png",
+					"mjurkowska6.png",
+					"mjurkowska7.png",
+				],
+			},
+			{
+				id: 1,
 				title: "Schody Zalinski",
 				description:
 					"A web application which I've made for a client. Simple, fully responsive website with a fast, scalable, and powerful Node.js RESTful APIs. It includes modern authentication with JWT and authorization. Allows for all CRUD operations with MongoDB database.",
