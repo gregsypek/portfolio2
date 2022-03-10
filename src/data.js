@@ -41,7 +41,7 @@ export default {
 				],
 			},
 			{
-				id: 1,
+				id: 2,
 				title: "Miodek v3",
 				description:
 					"My biggest website - containing 14 pages. Write for a real company with honey for sale. Including lazy loading images and slider components. Fully responsive with an easy to manage SCSS structure.",
@@ -59,7 +59,7 @@ export default {
 				],
 			},
 			{
-				id: 2,
+				id: 3,
 				title: "WordsApp",
 				description:
 					"Application built as a helper for learning new words with two print option on preformatted lists.",
@@ -75,7 +75,7 @@ export default {
 				],
 			},
 			{
-				id: 3,
+				id: 4,
 				title: "Quizzlet",
 				description:
 					"Application built as a challange from scrimba react course",
@@ -87,7 +87,7 @@ export default {
 			},
 
 			{
-				id: 4,
+				id: 5,
 				title: "Miodek v2",
 				description:
 					"Fully accessible and responsive One Page website build with advanced CSS layout, which I implement thanks to Jen Kramer course on Frontend Masters",
