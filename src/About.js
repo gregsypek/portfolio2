@@ -27,9 +27,9 @@ export default function About() {
 					mountains.
 				</h5>
 				<h5 className="about__text about__text--2">
-					Currently, I work as a carpenter, but after hours I am
-					<span>coding</span> my projects. I am a self-taught learner who loves{" "}
-					<span>computers.</span>
+					Currently, I work as a <span>frontend developer</span> in Rzeszów,
+					where I am coding in NuxtJS and Vue. I am a self-taught learner who
+					loves computers.
 				</h5>
 				<h5 className="about__text about__text--3">
 					I am willing <span>to cooperate</span> to start my adventure with IT
