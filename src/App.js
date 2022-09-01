@@ -1,4 +1,5 @@
-import "./scss/main.css";
+// import "./scss/main.css";
+import "./sass/main.css";
 import React from "react";
 import data from "./data";
 import Nav from "./Nav";
