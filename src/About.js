@@ -23,10 +23,10 @@ export default function About() {
 			<div className="about__text-box">
 				<h5 className="about__text about__text--1">
 					Currently, I am looking for a job as a <span>frontend developer</span>
-					. I have experience as a junior developer( I worked in Rzeszow on a
+					. I have experience as a junior developer (I worked in Rzeszow on a
 					full-time job, and I carried out orders for at least two companies for
-					now). Lastly, I am coding in NuxtJS and Vue. I know also React and
-					PHP. I am a self-taught learner who loves computers.
+					now). Lastly, I have been coding in NuxtJS and Vue. I know also React
+					and PHP. I am a self-taught learner who loves computers and coding.
 				</h5>
 				<h5 className="about__text about__text--2">
 					{" "}
