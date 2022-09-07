@@ -42,6 +42,17 @@ export default {
 			},
 			{
 				id: 2,
+				title: "WeatherApp",
+				description:
+					"WeatherApp is an application built for practising Vue language. You can check the current weather by typing the city name. There is also a history tab where all checked whether results are saved.",
+				liveLink: "https://weather123vue.herokuapp.com/",
+				gitLink: "https://github.com/gregsypek/weatherApp",
+				readmeLink: "https://github.com/gregsypek/weatherApp/#readme",
+				languages: "Vue, Nuxt",
+				images: ["weatherApp1.png", "weatherApp2.png"],
+			},
+			{
+				id: 3,
 				title: "Miodek v3",
 				description:
 					"My biggest website - containing 14 pages. Write for a real company with honey for sale. Including lazy loading images and slider components. Fully responsive with an easy to manage SCSS structure.",

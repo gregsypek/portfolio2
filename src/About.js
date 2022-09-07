@@ -29,7 +29,6 @@ export default function About() {
 					and PHP. I am a self-taught learner who loves computers and coding.
 				</h5>
 				<h5 className="about__text about__text--2">
-					{" "}
 					I live in a small town of Mielec in Poland. In my spare time I love
 					listening to progressive rock, reading books and hiking in the
 					mountains.
