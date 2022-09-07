@@ -26,7 +26,7 @@ export default {
 				id: 1,
 				title: "Schody Zalinski",
 				description:
-					"A web application which I've made for a client. Simple, fully responsive website with a fast, scalable, and powerful Node.js RESTful APIs. It includes modern authentication with JWT and authorization. Allows for all CRUD operations with MongoDB database.",
+					"A web application which I've made for a client. Simple, fully responsive website with a fast, scalable, and powerful Node.js RESTful APIs. It includes modern authentication and authorization with JWT. It has panel which allows for all CRUD operations with MongoDB database. To check it out, please go to schodyzalinski.herokuapp.com/login and log in with this data: user: 'stas@gmail.com', password: 'pass1234'.",
 				liveLink: "https://schodyzalinski.herokuapp.com/",
 				gitLink: "https://github.com/gregsypek/carpentry2",
 				readmeLink: "https://github.com/gregsypek/carpentry2/#readme",
