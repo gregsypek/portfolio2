@@ -70,7 +70,7 @@ export default {
 				],
 			},
 			{
-				id: 3,
+				id: 4,
 				title: "WordsApp",
 				description:
 					"Application built as a helper for learning new words with two print option on preformatted lists.",
@@ -86,7 +86,7 @@ export default {
 				],
 			},
 			{
-				id: 4,
+				id: 5,
 				title: "Quizzlet",
 				description:
 					"Application built as a challange from scrimba react course",
@@ -98,7 +98,7 @@ export default {
 			},
 
 			{
-				id: 5,
+				id: 6,
 				title: "Miodek v2",
 				description:
 					"Fully accessible and responsive One Page website build with advanced CSS layout, which I implement thanks to Jen Kramer course on Frontend Masters",
