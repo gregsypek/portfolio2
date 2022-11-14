@@ -5,6 +5,28 @@ export default {
 		projects: [
 			{
 				id: 0,
+				title: "Ursusapp",
+				description:
+					"Full Stack App with a login and register option created only for learning purposes and of course for fun. All pictures and information I copied from the original URSUS website link below. https://www.ursus.com/pl",
+				liveLink: "https://ursusapp.herokuapp.com/",
+				gitLink: "https://github.com/gregsypek/ursus2",
+				readmeLink: "https://github.com/gregsypek/ursus2#readme",
+				languages: "Vue, Node Express, MongoDB, Vuex, Bootstrap, Vuetify",
+				images: [
+					"ursus1.png",
+					"ursus2.png",
+					"ursus3.png",
+					"ursus4.png",
+					"ursus5.png",
+					"ursus6.png",
+					"ursus7.png",
+					"ursus8.png",
+					"ursus9.png",
+					"ursus10.png",
+				],
+			},
+			{
+				id: 1,
 				title: "MJurkowska",
 				description:
 					" Website made for fictional company. Fully responsive with an easy to manage CSS variables structure.",
@@ -23,7 +45,7 @@ export default {
 				],
 			},
 			{
-				id: 1,
+				id: 2,
 				title: "Schody Zalinski",
 				description:
 					"A web application which I've made for a client. Simple, fully responsive website with a fast, scalable, and powerful Node.js RESTful APIs. It includes modern authentication and authorization with JWT. It has panel which allows for all CRUD operations with MongoDB database. To check it out, please go to schodyzalinski.herokuapp.com/login and log in with this data: user: 'stas@gmail.com', password: 'pass1234'.",
@@ -41,7 +63,7 @@ export default {
 				],
 			},
 			{
-				id: 2,
+				id: 3,
 				title: "WeatherApp",
 				description:
 					"WeatherApp is an application built for practising Vue language. You can check the current weather by typing the city name. There is also a history tab where all checked whether results are saved.",
@@ -52,7 +74,7 @@ export default {
 				images: ["weatherApp1.png", "weatherApp2.png"],
 			},
 			{
-				id: 3,
+				id: 4,
 				title: "Miodek v3",
 				description:
 					"My biggest website - containing 14 pages. Write for a real company with honey for sale. Including lazy loading images and slider components. Fully responsive with an easy to manage SCSS structure.",
@@ -70,7 +92,7 @@ export default {
 				],
 			},
 			{
-				id: 4,
+				id: 5,
 				title: "WordsApp",
 				description:
 					"Application built as a helper for learning new words with two print option on preformatted lists.",
@@ -86,7 +108,7 @@ export default {
 				],
 			},
 			{
-				id: 5,
+				id: 6,
 				title: "Quizzlet",
 				description:
 					"Application built as a challange from scrimba react course",
@@ -98,7 +120,7 @@ export default {
 			},
 
 			{
-				id: 6,
+				id: 7,
 				title: "Miodek v2",
 				description:
 					"Fully accessible and responsive One Page website build with advanced CSS layout, which I implement thanks to Jen Kramer course on Frontend Masters",

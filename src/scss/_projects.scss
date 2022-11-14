@@ -66,6 +66,7 @@
 		max-height: 480px;
 		width: 52vw;
 		height: 30vw;
+		object-fit: contain;
 		@media (max-width: $huge) {
 			width: 80vw;
 			height: 46vw;
