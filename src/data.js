@@ -5,6 +5,22 @@ export default {
 		projects: [
 			{
 				id: 0,
+				title: "Miodek v4",
+				description:
+					"Full Stack E-commerce React Application with Stripe. Modern design and fully functional. Build in Next and Sanity with complete Stripe integration. Styled in Tailwind. To manage content just visit: https://honey4.sanity.studio/desk",
+				liveLink: "https://miodek4.vercel.app/",
+				gitLink: "https://github.com/gregsypek/miodek4",
+				readmeLink: "https://github.com/gregsypek/miodek4#readme",
+				languages: "React, Next, Sanity, Stripe, Tailwind",
+				images: [
+					"miodekv4-1.png",
+					"miodekv4-2.png",
+					"miodekv4-3.png",
+				
+				],
+			},
+			{
+				id: 1,
 				title: "Ursusapp",
 				description:
 					"Full Stack App with a login and register option created only for learning purposes and of course for fun. All pictures and information I copied from the original URSUS website link below. https://www.ursus.com/pl",
@@ -26,7 +42,7 @@ export default {
 				],
 			},
 			{
-				id: 1,
+				id: 2,
 				title: "MJurkowska",
 				description:
 					" Website made for fictional company. Fully responsive with an easy to manage CSS variables structure.",
@@ -45,7 +61,7 @@ export default {
 				],
 			},
 			{
-				id: 2,
+				id: 3,
 				title: "Schody Zalinski",
 				description:
 					"A web application which I've made for a client. Simple, fully responsive website with a fast, scalable, and powerful Node.js RESTful APIs. It includes modern authentication and authorization with JWT. It has panel which allows for all CRUD operations with MongoDB database. To check it out, please go to schodyzalinski.herokuapp.com/login and log in with this data: user: 'stas@gmail.com', password: 'pass1234'.",
@@ -63,18 +79,18 @@ export default {
 				],
 			},
 			{
-				id: 3,
+				id: 4,
 				title: "WeatherApp",
 				description:
 					"WeatherApp is an application built for practising Vue language. You can check the current weather by typing the city name. There is also a history tab where all checked whether results are saved.",
-				liveLink: "https://weather123vue.herokuapp.com/",
+				liveLink: "https://pogodynkavue.netlify.app/",
 				gitLink: "https://github.com/gregsypek/weatherApp",
 				readmeLink: "https://github.com/gregsypek/weatherApp/#readme",
 				languages: "Vue, Nuxt",
 				images: ["weatherApp1.png", "weatherApp2.png"],
 			},
 			{
-				id: 4,
+				id: 5,
 				title: "Miodek v3",
 				description:
 					"My biggest website - containing 14 pages. Write for a real company with honey for sale. Including lazy loading images and slider components. Fully responsive with an easy to manage SCSS structure.",
@@ -92,7 +108,7 @@ export default {
 				],
 			},
 			{
-				id: 5,
+				id: 6,
 				title: "WordsApp",
 				description:
 					"Application built as a helper for learning new words with two print option on preformatted lists.",
@@ -108,7 +124,7 @@ export default {
 				],
 			},
 			{
-				id: 6,
+				id: 7,
 				title: "Quizzlet",
 				description:
 					"Application built as a challange from scrimba react course",
@@ -120,7 +136,7 @@ export default {
 			},
 
 			{
-				id: 7,
+				id: 8,
 				title: "Miodek v2",
 				description:
 					"Fully accessible and responsive One Page website build with advanced CSS layout, which I implement thanks to Jen Kramer course on Frontend Masters",
